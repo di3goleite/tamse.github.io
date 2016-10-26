@@ -3215,6 +3215,16 @@ select[multiple].input-lg,
   background-color: #cf3029;
   border-color: #b12923;
 }
+.btn-danger2 {
+  color: white;
+  background-color: rgba(24, 182, 198, 0.04);
+  border-color: rgba(24, 182, 198, 0.04);
+}
+.btn-danger2:hover, .btn-danger2:focus, .btn-danger2:active, .btn-danger2.active, .open > .btn-danger2.dropdown-toggle {
+  color: white;
+  background-color: rgba(24, 182, 198, 0.2);
+  border-color: rgba(24, 182, 198, 0.2);
+}
 .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
   background-image: none;
 }
@@ -3728,13 +3738,13 @@ tbody.collapse.in {
     height: auto;
   }
 }
-.jumbotron .btn-app-store {
+.jumbotron .btn-google-play {
   margin-top: 40px;
 }
-.jumbotron .btn-app-store .btn.btn-lg, .jumbotron .btn-app-store .btn-group-lg > .btn {
+.jumbotron .btn-google-play .btn.btn-lg, .jumbotron .btn-google-play .btn-group-lg > .btn {
   padding: 0;
 }
-.jumbotron .btn-app-store .btn img {
+.jumbotron .btn-google-play .btn img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -6059,10 +6069,10 @@ tbody.collapse.in {
   background: #dc554f;
   color: white;
 }
-.features-section .btn-app-store .btn.btn-lg, .features-section .btn-app-store .btn-group-lg > .btn {
+.features-section .btn-google-play .btn.btn-lg, .features-section .btn-google-play .btn-group-lg > .btn {
   padding: 0;
 }
-.features-section .btn-app-store .btn img {
+.features-section .btn-google-play .btn img {
   display: block;
   margin-left: auto;
   margin-right: auto;
