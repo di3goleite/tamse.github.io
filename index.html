@@ -1,387 +1,255 @@
 <!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
-  <head>
+<html lang="en">
 
-    <!-- Meta -->
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="googlebot" content="index,follow">
 
-    <!-- Title -->
-    <title>TAMSE - Take me somewhere else</title>
+    <title>TAMSE - Não espere mais no ponto!</title>
 
-    <!-- Templates core CSS -->
-    <link href="stylesheets/application.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Favicons -->
-    <link href="images/favicon/favicon.png" rel="shortcut icon">
-    <link href="images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-    <link href="images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Modernizr Scripts -->
-    <script src="javascript/vendor/modernizr-2.7.1.min.js"></script>
-  </head>
-  <body class="index" id="to-top">
-
-    <!-- Side nav -->
-    <nav class="side-nav" role="navigation">
-
-      <ul class="nav-side-nav">
-        <li><a class="tooltip-side-nav" href="#section-1" title="" data-original-title="Services" data-placement="left"></a></li>
-        <li><a class="tooltip-side-nav" href="#section-2" title="" data-original-title="Features" data-placement="left"></a></li>
-        <li><a class="tooltip-side-nav" href="#section-3" title="" data-original-title="Subscribe" data-placement="left"></a></li>
-        <li><a class="tooltip-side-nav" href="#to-top" title="" data-original-title="Back" data-placement="left"></a></li>
-      </ul>
-
-    </nav> <!-- /.side-nav -->
-
-
-
-
-    <!-- Jumbotron -->
-    <header class="jumbotron" role="banner">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-7">
-
-            <!-- Logo -->
-            <figure class="text-center">
-              <a href="./index.html">
-                <img class="img-logo" src="images/logo.png" alt="">
-              </a>
-            </figure> <!-- /.text-center -->
-
-            <!-- Title -->
-            <h1>Não espere mais no ponto!</h1>
-
-            <!-- Sub title -->
-            <p>Utilize a maior rede colaborativa de monitoramento de transportes públicos e saiba quando o seu ônibus vai chegar no ponto.</p>
-
-            <!-- Button -->
-            <p class="btn-google-play">
-              <a class="btn btn-danger2 btn-lg" href="#">
-                <img src="images/btn-google-play.png" alt="">
-              </a>
-            </p> <!-- /.btn-google-play -->
-            <h6 style="color:white">Em breve!</h6>
-
-          </div> <!-- /.col-md-7 -->
-
-          <div class="col-md-5">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-Nexus" src="images/nexus/1.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </header> <!-- /.jumbotron -->
-
-
-
-
-    <!-- Services -->
-    <section class="services-section" id="section-1">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-4 col-services">
-
-            <!-- Icons -->
-            <figure>
-              <img class="img-services" src="images/icons/flag.png" alt="">
-            </figure>
-
-            <!-- Title -->
-            <h4>Pontos de ônibus</h4>
-
-            <!-- Description -->
-            <p>Com um clique, descubra onde estão localizados todos os pontos de ônibus da sua cidade.</p>
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-services">
-
-            <!-- Icons -->
-            <figure>
-              <img class="img-services" src="images/icons/search.png" alt="">
-            </figure>
-
-            <!-- Title -->
-            <h4>Encontre o seu caminho</h4>
-
-            <!-- Description -->
-            <p>Com uma busca simples, encontre o melhor ônibus para chegar no seu destino.</p>
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-services">
-
-            <!-- Icons -->
-            <figure>
-              <img class="img-services img-margin" src="images/icons/world-map.png" alt="">
-            </figure>
-
-            <!-- Title -->
-            <h4>Contribua com o TAMSE</h4>
-
-            <!-- Description -->
-            <p>Colabore com a nossa plataforma e faça com que o TAMSE chegue a outras pessoas.</p>
-
-          </div> <!-- /.col-md-4 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </section> <!-- /.services-section -->
-
-
-
-
-    <!-- Features -->
-    <section class="features-section" id="section-2">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-Nexus" src="images/nexus/1.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-1">Ônibus a um clique!</h3>
-
-            <!-- Description -->
-            <p>O TAMSE tem como objetivo facilitar a vida de quem utiliza o transporte público. Com informações de intinerários e horários a poucos cliques. Chega de esperar uma eternidade em pontos de ônibus!</p>
-
-            <p>
-              <a class="btn btn-danger" href="#title-2">Saiba mais</a>
-            </p>
-
-          </div> <!-- /.col-md-7 -->
-
-        </div> <!-- /.row -->
-
-
-
-
-        <div class="row media-screen-800">
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-2">Facilite, colabore.</h3>
-
-            <!-- Description -->
-            <p>Temos como diferencial a colaboração. Você usuário pode informar intinerários e horários do qual tem conhecimento, contribuindo para uma locomoção mais inteligente em sua cidade.</p>
-
-            <p>
-              <a class="btn btn-danger" href="#title-3">Saiba mais</a>
-            </p>
-
-          </div> <!-- /.col-md-7 -->
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-Nexus margin-top margin-screen-800" src="images/nexus/2.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-        </div> <!-- /.row -->
-
-
-
-
-        <div class="row">
-
-          <div class="col-md-5 col-features text-center">
-
-            <!-- Images showcase -->
-            <figure>
-              <img class="img-Nexus margin-top margin-top-1" src="images/nexus/3.png" alt="">
-            </figure>
-
-          </div> <!-- /.col-md-5 -->
-
-          <div class="col-md-7 col-features features-content">
-
-            <!-- Title -->
-            <h3 id="title-3">Encontre o seu caminho</h3>
-
-            <!-- Description -->
-            <p>Saiba de onde o ônibus veio e até onde ele vai. Encontre a melhor rota para chegar ao seu destino. Em breve, na:</p>
-
-            <!-- Button -->
-            <p class="btn-google-play">
-              <a class="btn btn-danger btn-lg" href="#">
-                <img src="images/btn-google-play.png" alt="">
-              </a>
-            </p> <!-- /.btn-google-play -->
-
-          </div> <!-- /.col-md-7 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </section> <!-- /.features-section -->
-
-
-
-
-    <!-- Subscribe -->
-    <section class="subscribe-section" id="section-3">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-12">
-
-            <!-- Title -->
-            <h2>Inscreva-se e fique por dentro de tudo!</h2>
-
-            <!-- Subscribe form -->
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">TAMSE</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Funcionalidades</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="container">
             <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <img id="logoImage" src="img/logo.png" alt="logo">
+                            <h3>Não espere mais no ponto! </br>
+                            Utilize a maior rede colaborativa de monitoramento de transportes públicos e saiba quando o seu ônibus vai chegar no ponto.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup galaxy_s3 portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-              <div class="col-md-6 col-md-offset-3 col-subscribe">
+    <section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading">Faça o download nas lojas de aplicativos</h2>
+                    <p>Já está disponível para Android. Breve para iOS</p>
+                    <div class="badges">
+                        <a class="badge-link" href="https://play.google.com/store/apps/details?id=me.tamse"><img src="img/google-play-badge.svg" alt=""></a>
+                        <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <form class="subscribe-form form-inline" action="./index.html" role="form">
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>Visual moderno, funcionalidades colaborativas</h2>
+                        <p class="text-muted">Veja o que você pode encontrar neste app!</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="device-container">
+                        <div class="device-mockup galaxy_s5 portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-clock text-primary"></i>
+                                    <h3>Previsões</h3>
+                                    <p class="text-muted">Saiba exatamente quando seu ônibus vai passar no ponto mais próximo de você!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-list text-primary"></i>
+                                    <h3>Rotas</h3>
+                                    <p class="text-muted">Basta selecionar a rota desejada para ter a previsão de seu ônibus! Simples e prático!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-present text-primary"></i>
+                                    <h3>Grátis</h3>
+                                    <p class="text-muted">Completamente gratuito e sem propagandas!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-heart text-primary"></i>
+                                    <h3>Contribuições</h3>
+                                    <p class="text-muted">Contribua com o TAMSE e nos ajude a tornar o aplicativo cada vez melhor!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-                  <!-- Input -->
-                  <div class="form-group">
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h2>Não espere no ponto!<br>Use TAMSE.</h2>
+                <a href="#download" class="btn btn-outline btn-xl page-scroll">Download</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
 
-                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Endereço de email">
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>Nós <i class="fa fa-heart"></i> novos amigos!</h2>
+            <ul class="list-inline list-social">
+                <li class="social-facebook">
+                    <a href="https://www.facebook.com/tamse.me"><i class="fa fa-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-                  </div> <!-- /.form-group -->
+    <section id="team" class="team">
+        <div class="container text-center">
+            <h2>Nosso time!</h2>
+            <div class="row">
+                <div class="col-md-2 col-xs-4 col-md-offset-1  team-member" >
+                    <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/14045644_1052180191535055_7716273344990063971_n.jpg?oh=7f470b2303272b009c8b87b873047413&oe=589FD5A9" alt="" class="team-member-avatar img-responsive img-circle">
+                    <span class="team-member-name">Diego Leite</span></br>
+                    <span class="team-member-role">Back-end Developer</span>
+                </div>
+                <div class="col-md-2 col-xs-4 team-member" >
+                    <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/14720609_617977295048900_1612776857198097949_n.jpg?oh=4387ca9fc85ec982b9ec355986e7ee16&oe=58AB6739" alt="" class="team-member-avatar img-responsive img-circle">
+                    <span class="team-member-name">Igor Pereira</span></br>
+                    <span class="team-member-role">Head of Business Management</span>
+                </div>
+                <div class="col-md-2 col-xs-4 team-member">
+                    <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13321743_1095773630443835_3019726177107269398_n.jpg?oh=53e71c6992d467bc59e7bc491eabd97b&oe=589ECA1C" alt="" class="team-member-avatar img-responsive img-circle">
+                    <span class="team-member-name">Pedro Olympio</span></br>
+                    <span class="team-member-role">Mobile Developer</span>
+                </div>
+                <div class="col-md-2 col-xs-4 team-member" >
+                    <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/1910481_732738450130018_7378907331737680322_n.jpg?oh=241ca68de95f708dd81ca2c03ab0a33b&oe=585FAD60" alt="" class="team-member-avatar img-responsive img-circle">
+                    <span class="team-member-name">Jones Dias</span></br>
+                    <span class="team-member-role">Front-end Developer</span>
+                </div>
+                <div class="col-md-2 col-xs-4 team-member" >
+                    <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/10897744_740479172696787_7194286691701191129_n.jpg?oh=97c17e6762073e3c2afc821e0c819561&oe=5889AA9C" alt="" class="team-member-avatar img-responsive img-circle">
+                    <span class="team-member-name">Heitor Rodrigues</span></br>
+                    <span class="team-member-role">Back-end Developer</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                  <!-- Button -->
-                  <button class="btn btn-success" type="submit">Inscrever</button>
+    <footer>
+        <div class="container">
+            <p>&copy; 2016 TAMSE. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
-                </form> <!-- /.subscribe-form -->
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-                <section class="subscribe-description">
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
 
-                  <p>:)</p>
+</body>
 
-                </section> <!-- /.subscribe-description -->
-
-              </div> <!-- /.col-md-6 -->
-
-            </div> <!-- /.row -->
-
-          </div> <!-- /.col-md-12 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </section> <!-- /.subscribe-section -->
-
-
-
-
-    <!-- Footer -->
-    <footer class="footer-section" role="contentinfo">
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-md-4 col-footer">
-
-            <!-- Footer 1 -->
-            <section>
-              <p>Made with <i class="fa fa-heart"></i> by Aryandhani.</p>
-            </section>
-
-            <!-- AddThis Button -->
-            <ul class="addthis_toolbox addthis_default_style">
-
-              <li><a class="addthis_button_facebook_like"></a></li>
-              <li><a class="addthis_button_tweet"></a></li>
-
-            </ul> <!-- /.addthis_toolbox -->
-            <script>var addthis_config = {"data_track_addressbar":true};</script>
-            <script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-533f6ac03b59c72a"></script>
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-footer col-padding">
-
-            <!-- Footer 1 -->
-            <section class="text-center">
-              <p>Leia os <a href="#">Termos</a> e a <a href="#">Política de Privacidade</a>.</p>
-            </section>
-
-            <!-- Social media links -->
-            <ul class="social-media-links">
-
-              <li><a class="fa fa-twitter tw" href="#"></a></li>
-              <li><a class="fa fa-facebook fb" href="#"></a></li>
-              <li><a class="fa fa-pinterest pn" href="#"></a></li>
-
-            </ul> <!-- /.social-media-links -->
-
-          </div> <!-- /.col-md-4 -->
-
-          <div class="col-md-4 col-footer">
-
-            <!-- Footer 1 -->
-            <section>
-              <p><strong>Take me somewhere else</strong><br>Feira de Santana - Bahia</p>
-            </section>
-
-          </div> <!-- /.col-md-4 -->
-
-        </div> <!-- /.row -->
-
-      </div> <!-- /.container -->
-
-    </footer> <!-- /.footer-section -->
-
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="javascript/vendor/jquery-2.1.0.min.js"></script>
-    <script src="javascript/bootstrap.min.js"></script>
-    <script src="javascript/assets/application.js"></script>
-  </body>
 </html>
